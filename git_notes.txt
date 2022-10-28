@@ -1,0 +1,39 @@
+Git Definations
+----------------------------
+Clone   -> Bring a repository that is hosted somewhere like Github into a folder on your local machine
+add     -> Track your files and changes in Git
+commit  -> Save your files in Git locally
+push    -> Upload Git commits to a remote repo, like Github
+pull    -> Download changes from remote repo to your local machine, the opposite of push
+
+Git Command
+----------------------------
+cd directory_name	-> change directory
+git status		    -> show all the file that have not been commited yet
+git add file_name	-> track all the file shown on status
+ls -la		        -> list everything in directory including hidden files
+git commit -m "what is purpose of commit or why"(message) -m "description of commit"
+git push		    -> to push or go live online
+git push -u origin <branch name>	-> to push when multiple remote repository are available (slect the branch before you push)
+          |          eg.: master
+	  upstream 
+#for undoing in git       
+git reset  <commit_value>         -> reset the staged changes(only in git but code exist in your code editor)
+git reset HEAD~1    -> reset to the previous commit 
+git log             -> to check the log of commit (arranged in reversed chronologically order)   
+git reset --hard <commit_value> -> to uncommit hard(deletes all code after the commit)
+
+#for branching-----
+git branch			    -> show branches
+git checkout -b <name>  -> create and switch to newly created branch
+git checkout <name>	    -> switch branches (press tab to autofill the branch name)
+git diff 			    -> show the changes in code of two branches
+git commit -am "mesage"	-> add and commit at the same time but only work for modified files
+git merge
+
+Colour Representation(in terminals)
+----------------------------
+Cyan	-> Folder
+
+To watch video checkout this link:
+https://www.youtube.com/watch?v=RGOj5yH7evk
