@@ -30,6 +30,7 @@ git checkout <name>	    -> switch branches (press tab to autofill the branch nam
 git diff 			    -> show the changes in code of two branches
 git commit -am "mesage"	-> add and commit at the same time but only work for modified files
 git merge
+git pull [<options>] [<repository> [<refspec>…​]] //but do it from github for convinence 
 
 Colour Representation(in terminals)
 ----------------------------
