@@ -37,8 +37,14 @@ Colour Representation(in terminals)
 Cyan	-> Folder
 
 Sign Up git account in VSC
-git config --global user.name "_name"
-git config --global user.email "_email"
+1. first clone a repo
+2. just try pushing a code then it automatically redirects you into the authentication
+3. git config --global user.name "_name"
+4. git config --global user.email "_email"
+
+Bonus Tips:
+to go back on the directory selection just type cd /
+It take you to the first directory in selection
 
 To watch video checkout this link:
 https://www.youtube.com/watch?v=RGOj5yH7evk
