@@ -61,6 +61,13 @@ when running command like git pull push add commit or any other command submodul
 you have to inclusively tell git to include submodules
 submodule refer to a specific version of commit to update the commit
 Updating a version of commit:
-git add .
-git commit -m "updating version of repo"
-git push (shortcut gp)
+1.go to main repo
+2.git submodule update --remote <submodule path>
+    for eg:
+        git submodule update --remote testing
+3. go to submodule
+4. git checkout <commit_hash>
+5. go to main repo with cd ..
+6. git add <submodule_path> or .
+7. git commit -m "Update submodule to new version"
+8. git push
