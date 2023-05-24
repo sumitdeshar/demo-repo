@@ -31,6 +31,7 @@ git diff 			    -> show the changes in code of two branches
 git commit -am "mesage"	-> add and commit at the same time but only work for modified files
 git merge
 git pull [<options>] [<repository> [<refspec>…​]] //but do it from github for convinence 
+glods -> get logs on the branch or directory
 
 Colour Representation(in terminals)
 ----------------------------
@@ -43,8 +44,23 @@ Sign Up git account in VSC
 4. git config --global user.email "_email"
 
 Bonus Tips:
-to go back on the directory selection just type cd /
+to go back on the directory selection just type ----> cd /
 It take you to the first directory in selection
+to go up a directory type -----> cd ..
 
 To watch video checkout this link:
 https://www.youtube.com/watch?v=RGOj5yH7evk
+
+Git submodule:
+git submodule add <url> /*adding submodule*/
+git pull --recurse-submodules
+git config submodule.recurse true  /*setting to perform pull for default*/
+git submodule update --init /*updating submodules*/
+-----key point to remember-------
+when running command like git pull push add commit or any other command submodule are excluded
+you have to inclusively tell git to include submodules
+submodule refer to a specific version of commit to update the commit
+Updating a version of commit:
+git add .
+git commit -m "updating version of repo"
+git push (shortcut gp)
